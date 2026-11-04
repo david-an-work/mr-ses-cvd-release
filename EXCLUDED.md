@@ -37,4 +37,4 @@ effects to be recovered.
 ## Also not included
 
 Working notes, correspondence, internal reviews, manuscript drafts, journal-specific submission files, literature
-files and other working files. The manuscript itself is published by the journal.
+files and other working files. The manuscript is not included in this code and results release.

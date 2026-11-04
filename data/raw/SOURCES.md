@@ -5,6 +5,11 @@
 > any column-renaming notes. The MANIFEST.tsv row stays the source of truth for
 > URL/access metadata; this file is the place for the *narrative* about each dataset.
 
+This file preserves the May reconnaissance notes and later corrections. Some dataset roles, proposed analyses,
+overlap statements and access assessments below were superseded as the study developed. For the current study,
+consult `ANALYSIS_PLAN.md`, the manuscript and `data/raw/MANIFEST.tsv`; see `LICENSE-DATA.md` for the
+release's redistribution and licensing scope.
+
 ---
 
 ## Exposures
