@@ -7,7 +7,6 @@ authors:
     affiliation: "Harvard University"
     orcid: "https://orcid.org/0009-0007-8709-7739"
 license: MIT
-repository-code: "[AUTHOR INPUT: public GitHub URL]"
-doi: "[AUTHOR INPUT: Zenodo DOI]"
-date-released: "[AUTHOR INPUT: YYYY-MM-DD]"
+repository-code: "https://github.com/david-an-work/mr-ses-cvd-release"
+date-released: "2026-11-04"
 version: "1.0.0"

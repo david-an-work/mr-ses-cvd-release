@@ -37,6 +37,8 @@ for _, r in contents.iterrows():
         res["first_mismatch"] = "; ".join(f"{c} row {i}: sheet={v1!r} source={v2!r} (n={n})" for c, n, i, v1, v2 in bad[:3])
     out.append(res)
 R = pd.DataFrame(out)
+import os
+os.makedirs("manuscript/verification", exist_ok=True)
 R.to_csv("manuscript/verification/supplementary_tables_reconciliation.tsv", sep="\t", index=False)
 print(R[["sheet", "rows_sheet", "rows_source", "cols_equal", "n_cell_mismatch"]].to_string(index=False))
 print(R.loc[R.n_cell_mismatch.fillna(1) > 0, "first_mismatch"].to_string())
