@@ -14,7 +14,7 @@ only. No individual-level data were used.
   the frozen plan files, which are the canonical registered record. `ANALYSIS_PLAN.md` here is identical to the registered plan v1.0
   (SHA-256 `832d832d9072cd997de3bef9f0429edfe243db4838bd54ed2009ee5b99f8487b`).
 - **Departures from the plan:** `results/logs/DEVIATIONS.md` (dated).
-- **Archived release:** the first tagged release will be archived on Zenodo.
+- **Archived release:** v1.0.0, Zenodo doi:[10.5281/zenodo.23966018](https://doi.org/10.5281/zenodo.23966018).
 
 ## What is in this repository
 
