@@ -1,0 +1,13 @@
+{
+  "title": "mr-ses-cvd: code and derived results for a preregistered Mendelian randomization study of socioeconomic position and cardiovascular disease",
+  "upload_type": "software",
+  "creators": [
+    {"name": "An, David H.", "affiliation": "Harvard University", "orcid": "0009-0007-8709-7739"}
+  ],
+  "description": "Analysis code (R, Python), derived study-level results and the registered analysis plan for a preregistered two-sample Mendelian randomization study of socioeconomic measures and cardiovascular disease using public GWAS summary statistics. Source GWAS data are not redistributed. Registration: https://osf.io/k7dcm and https://osf.io/usz4x.",
+  "license": "MIT",
+  "keywords": ["Mendelian randomization", "socioeconomic position", "cardiovascular disease", "conditional F", "multivariable Mendelian randomization"],
+  "related_identifiers": [
+    {"identifier": "https://osf.io/k7dcm", "relation": "isSupplementTo", "scheme": "url"}
+  ]
+}

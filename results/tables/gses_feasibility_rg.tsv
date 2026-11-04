@@ -1,0 +1,6 @@
+trait	rg_with_gSES	se	cross_trait_intercept	h2_gSES
+EA	1.05	0.027	0.63	0.1007
+Income	0.987	0.03	0.611	0.1007
+TDI	0.584	0.027	0.3	0.1007
+Occupation	0.934	0.032	0.546	0.1007
+Income_Hill	0.842	0.033	0.535	0.1007

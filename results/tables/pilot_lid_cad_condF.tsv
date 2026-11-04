@@ -1,0 +1,41 @@
+set	role	n_snps	rho_scale	rho	exposure	condF	condF_df
+S1	main	407	0	0	EA	2.24	2.24
+S1	main	407	0	0	Income	2.03	2.04
+S1	main	407	0.5	0.1151	EA	2.46	2.46
+S1	main	407	0.5	0.1151	Income	2.18	2.18
+S1	main	407	1	0.2302	EA	2.72	2.73
+S1	main	407	1	0.2302	Income	2.35	2.35
+S1	main	407	1.5	0.3453	EA	3.06	3.07
+S1	main	407	1.5	0.3453	Income	2.55	2.55
+S2	diagnostic	433	0	0	EA	2.86	2.86
+S2	diagnostic	433	0	0	Income	2.59	2.6
+S2	diagnostic	433	0.5	0.1151	EA	3.15	3.16
+S2	diagnostic	433	0.5	0.1151	Income	2.79	2.8
+S2	diagnostic	433	1	0.2302	EA	3.51	3.52
+S2	diagnostic	433	1	0.2302	Income	3.02	3.03
+S2	diagnostic	433	1.5	0.3453	EA	3.97	3.98
+S2	diagnostic	433	1.5	0.3453	Income	3.29	3.3
+S3	main	407	0	0	EA	2.24	2.24
+S3	main	407	0	0	Income	2.03	2.04
+S3	main	407	0.5	0.1151	EA	2.46	2.46
+S3	main	407	0.5	0.1151	Income	2.18	2.18
+S3	main	407	1	0.2302	EA	2.72	2.73
+S3	main	407	1	0.2302	Income	2.35	2.35
+S3	main	407	1.5	0.3453	EA	3.06	3.07
+S3	main	407	1.5	0.3453	Income	2.55	2.55
+S1-ref	main	407	0	0	EA	2.24	2.24
+S1-ref	main	407	0	0	Income	2.03	2.04
+S1-ref	main	407	0.5	0.1151	EA	2.46	2.46
+S1-ref	main	407	0.5	0.1151	Income	2.18	2.18
+S1-ref	main	407	1	0.2302	EA	2.72	2.73
+S1-ref	main	407	1	0.2302	Income	2.35	2.35
+S1-ref	main	407	1.5	0.3453	EA	3.06	3.07
+S1-ref	main	407	1.5	0.3453	Income	2.55	2.55
+S1-LDpruned	LD sensitivity	383	0	0	EA	2.2	2.2
+S1-LDpruned	LD sensitivity	383	0	0	Income	1.97	1.97
+S1-LDpruned	LD sensitivity	383	0.5	0.1151	EA	2.41	2.42
+S1-LDpruned	LD sensitivity	383	0.5	0.1151	Income	2.11	2.11
+S1-LDpruned	LD sensitivity	383	1	0.2302	EA	2.67	2.68
+S1-LDpruned	LD sensitivity	383	1	0.2302	Income	2.27	2.28
+S1-LDpruned	LD sensitivity	383	1.5	0.3453	EA	2.99	3
+S1-LDpruned	LD sensitivity	383	1.5	0.3453	Income	2.46	2.47

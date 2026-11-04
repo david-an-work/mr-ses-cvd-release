@@ -1,0 +1,5 @@
+dataset	locus	nearest_instrument_kb	within_500kb
+ea_okbay2022	ANKRD55	2080.1	FALSE
+ea_okbay2022	MAPT	142.2	TRUE
+ea_lee2018	ANKRD55	2227.9	FALSE
+ea_lee2018	MAPT	57.4	TRUE

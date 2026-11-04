@@ -1,0 +1,7 @@
+exposure	estimate	bca_lo	bca_hi	pct_lo	pct_hi	R	n_fail	fail_frac	ci_status	ci_method	n_jack_fail	test	pkg_lo	pkg_hi	matches_pkg_3dp
+1	NA	NA	NA	NA	NA	100	100	1	withheld (point estimate not usable)	none	NA	a_no_failure_vs_package	-0.039	0.811	NA
+2	NA	NA	NA	NA	NA	100	100	1	withheld (point estimate not usable)	none	NA	a_no_failure_vs_package	-0.552	0.337	NA
+1	NA	NA	NA	NA	NA	200	200	1	withheld (point estimate not usable)	none	NA	b_forced_3pct	NA	NA	NA
+2	NA	NA	NA	NA	NA	200	200	1	withheld (point estimate not usable)	none	NA	b_forced_3pct	NA	NA	NA
+1	NA	NA	NA	NA	NA	200	200	1	withheld (point estimate not usable)	none	NA	c_forced_10pct	NA	NA	NA
+2	NA	NA	NA	NA	NA	200	200	1	withheld (point estimate not usable)	none	NA	c_forced_10pct	NA	NA	NA

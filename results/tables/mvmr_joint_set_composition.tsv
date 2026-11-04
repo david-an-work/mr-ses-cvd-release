@@ -1,0 +1,29 @@
+model	model_label	n_joint_snps	exposure	own_list_size	in_own_list	gw_significant	model_snps_in_2plus_own_lists	model_snps_gw_for_2plus_exposures
+EA+Income+TDI+Occupation	A1 four-measure (EA4, Kweon income, TDI, CAMSIS)	415	EA	408	378	388	7	66
+EA+Income+TDI+Occupation	A1 four-measure (EA4, Kweon income, TDI, CAMSIS)	415	Income	131	36	84	7	66
+EA+Income+TDI+Occupation	A1 four-measure (EA4, Kweon income, TDI, CAMSIS)	415	TDI	9	3	3	7	66
+EA+Income+TDI+Occupation	A1 four-measure (EA4, Kweon income, TDI, CAMSIS)	415	Occupation	63	6	30	7	66
+EA+Income	A2 EA4 + Kweon income	415	EA	408	385	395	6	64
+EA+Income	A2 EA4 + Kweon income	415	Income	131	36	84	6	64
+EA+TDI	A3 EA4 + deprivation (TDI)	408	EA	408	405	405	0	1
+EA+TDI	A3 EA4 + deprivation (TDI)	408	TDI	9	3	3	0	1
+EA+Occupation	A4 EA4 + occupation (CAMSIS)	404	EA	408	398	398	2	25
+EA+Occupation	A4 EA4 + occupation (CAMSIS)	404	Occupation	63	8	31	2	25
+EA+Income_Hill+TDI+Occupation	A5 four-measure with Hill income	405	EA	408	395	395	2	29
+EA+Income_Hill+TDI+Occupation	A5 four-measure with Hill income	405	Income_Hill	27	1	13	2	29
+EA+Income_Hill+TDI+Occupation	A5 four-measure with Hill income	405	TDI	9	3	3	2	29
+EA+Income_Hill+TDI+Occupation	A5 four-measure with Hill income	405	Occupation	63	8	31	2	29
+EA+TDI_EUR	A3-EUR EA4 + EUR-only TDI	406	EA	408	406	406	0	1
+EA+TDI_EUR	A3-EUR EA4 + EUR-only TDI	406	TDI_EUR	8	0	1	0	1
+EA+Income+TDI_EUR+Occupation	A1-EUR A1 with EUR-only TDI	413	EA	408	379	389	7	66
+EA+Income+TDI_EUR+Occupation	A1-EUR A1 with EUR-only TDI	413	Income	131	36	84	7	66
+EA+Income+TDI_EUR+Occupation	A1-EUR A1 with EUR-only TDI	413	TDI_EUR	8	0	1	7	66
+EA+Income+TDI_EUR+Occupation	A1-EUR A1 with EUR-only TDI	413	Occupation	63	6	30	7	66
+LiD_S1	B1 Li D-comparable (EA4 + Hill income)	407	EA	408	406	406	0	12
+LiD_S1	B1 Li D-comparable (EA4 + Hill income)	407	Income_Hill	27	1	13	0	12
+LiD_S1-LDpruned	B1-pruned B1 with LD-pruned instrument set	383	EA	408	382	382	0	12
+LiD_S1-LDpruned	B1-pruned B1 with LD-pruned instrument set	383	Income_Hill	27	1	13	0	12
+EA+Income_Hill	B2 Le-comparable (EA4 + Hill income; same set as B1)	407	EA	408	406	406	0	12
+EA+Income_Hill	B2 Le-comparable (EA4 + Hill income; same set as B1)	407	Income_Hill	27	1	13	0	12
+EA+Occupation_ISEI	B3 Le-comparable (EA4 + occupation, ISEI)	403	EA	408	401	401	3	23
+EA+Occupation_ISEI	B3 Le-comparable (EA4 + occupation, ISEI)	403	Occupation_ISEI	52	5	25	3	23

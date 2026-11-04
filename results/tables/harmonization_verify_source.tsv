@@ -1,0 +1,13 @@
+outcome	union_ok_raw	union_ok_extract	duplicates	status_match	values_match	cells_checked
+cad_aragam_eur	3861	3861	0	True	True	52
+cad_aragam_multi	3863	3863	0	True	True	52
+cad_mvp_phe411_eur	3846	3846	0	True	True	52
+hf_hermes2	3858	3858	0	True	True	52
+hf_mvp_phe428_eur	3846	3846	0	True	True	52
+pad_finngen_athscle	3782	3782	0	True	True	52
+pad_mvp_afr	3845	3845	0	True	True	52
+pad_mvp_eur	3846	3846	0	True	True	52
+pad_vanzuydam	3806	3806	31	True	True	52
+stroke_gigastroke_eur	3793	3793	0	True	True	52
+stroke_gigastroke_multi	3775	3775	0	True	True	52
+stroke_mvp_phe433_21_eur	3846	3846	0	True	True	52

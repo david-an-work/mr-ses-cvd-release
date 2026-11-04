@@ -1,0 +1,28 @@
+trait	role	source	accession	ancestry	n_total	cases	controls	includes_ukb	manifest_dataset
+Educational attainment (EA4)	Exposure, primary	Okbay A et al. Nat Genet 2022	SSGAC EA4 (excl-23andMe); also OSF https://osf.io/uegqv/	EUR 100%	765283			yes	ea_okbay2022
+Income factor	Exposure, primary	Kweon H et al. Nat Hum Behav 2025	doi:10.62891/aac85602; DOI paper 10.1038/s41562-024-02080-7	EUR (1KG-EUR-like)	668288			yes	income_kweon2025
+Townsend deprivation index	Exposure, primary (all ancestries; EUR-only file as sensitivity)	Pan-UKB v0.4 (Karjalainen Martin Finucane et al.)	Pan-UKB phenotype 189-irnt	EUR 420035 / CSA 8864 / AFR 6624 / EAS 2698 / AMR 977	439198			yes	tdi_panukb
+Occupational status (CAMSIS)	Exposure, primary	Akimova ES et al. Nat Hum Behav 2024	GCST90446160 (CAMSIS); GCST90446162 (SIOPS); GCST90446163 (ISEI)	EUR	273157			yes	occupation_akimova2024
+Educational attainment (EA3)	Exposure, sensitivity	Lee JJ et al. Nat Genet 2018	SSGAC EA3 (excl-23andMe)	EUR 100%	766345			yes	ea_lee2018
+Household income	Exposure, sensitivity; Li D-comparable model	Hill WD et al. Nat Commun 2019	DOI 10.7488/ds/2643	EUR 100% (UKB white British)	286301			yes	income_hill2019
+Occupational status (ISEI)	Exposure, Le-comparable model only	Akimova ET et al. 2024 (occupational status GWAS; ISEI)	GCST90446163	EUR	271769			yes (UKB only)	occupation_akimova2024_isei
+General SES factor (gSES)	Exposure, secondary	Xia et al. 2025 Mol Psychiatry (gSES, Genomic SEM common factor)	GCST90566708	EUR	947466			yes (own UKB GWAS + SSGAC EA and household income meta-analyses)	ses_gses_xia2025
+Coronary artery disease	Outcome, primary	Aragam KG et al. Nat Genet 2022	GCST90132314	EUR + NR	1165690	181522	984168	yes	cad_aragam2022_eur
+Coronary artery disease	Outcome, comparator	Aragam KG et al. Nat Genet 2022	GCST90132315	EUR ~85% / EAS ~14% (BBJ) / NR small	1378170	210842	1167328	yes	cad_aragam2022_multi
+Ischaemic heart disease (phecode 411)	Outcome, comparator without UKB	Verma A et al. Science 2024 (MVP gwPheWAS)	dbGaP phs002453 Phe_411 EUR (GIA)	EUR (GIA)	417274	141465	275809	no	cad_mvp_phe411_eur
+Peripheral artery disease (phecode 440.2)	Outcome, primary	Verma A et al. Science 2024 (MVP gwPheWAS)	dbGaP phs002453.v1.p1 (open access); trait Phe_440_2	EUR (GIA)	438039	15036	423003	no	pad_mvp_phe440_2_eur
+Atherosclerosis (I9_ATHSCLE)	Outcome, comparator	FinnGen Release 12 I9_ATHSCLE (Atherosclerosis excl cerebral/coronary)	FinnGen R12 I9_ATHSCLE	Finnish EUR	482913	19807	463106	no	pad_finngen_r12_athscle
+Peripheral artery disease	Outcome, exploratory (rounded data)	van Zuydam NR et al. Circ Genom Precis Med 2021	figshare 12723404	EUR 100%	461634	12086	449548	yes	pad_vanzuydam2021
+Peripheral artery disease (phecode 440.2)	Outcome, exploratory transportability	Verma A et al. Science 2024 (MVP gwPheWAS)	dbGaP phs002453.v1.p1 (open access); trait Phe_440_2	AFR (GIA)	118254	4282	113972	no	pad_mvp_phe440_2_afr
+Heart failure	Outcome, primary	Henry A / Levin MG et al. Nat Genet 2025	GCST90726617 (HFall); subtypes 90726618 (ni-HF) / 90726619 (ni-HFpEF) / 90726620 (ni-HFrEF)	EUR 91% / EAS 6.2% / AFR 2.2% / SAS 0.5% / AMR 0.1%	1946349	153174	1793175	yes	hf_hermes2_2025
+Heart failure (phecode 428)	Outcome, comparator without UKB	Verma A et al. Science 2024 (MVP gwPheWAS)	GCST90475981 (dbGaP phs002453 GIA EUR)	EUR (GIA)	429672	58749	370923	no	hf_mvp_phe428_eur
+Any stroke	Outcome, primary	Mishra A et al. Nature 2022 / GIGASTROKE	GCST90104534	EUR ~67% / EAS ~22% / AFR/HIS/SAS ~11%	1614080	110182	1503898	yes	stroke_gigastroke_any_multi
+Any stroke	Outcome, comparator	Mishra A et al. Nature 2022 / GIGASTROKE	GCST90104539	EUR	1308460	73652	1234808	yes	stroke_gigastroke_any_eur
+Cerebral artery occlusion with infarction (phecode 433.21)	Outcome, comparator without UKB	Verma A et al. Science 2024 (MVP gwPheWAS)	GCST90477991 (dbGaP phs002453 GIA EUR)	EUR (GIA)	440985	20766	420219	no	stroke_mvp_phe433_21_eur
+Body mass index	Mediator (exploratory)	Yengo L et al. Hum Mol Genet 2018 / GIANT+UKB	(see also Zenodo 1251813)	EUR	~700000			yes	bmi_giant_yengo2018
+Lifetime smoking index	Mediator (exploratory)	Wootton RE et al. Psychol Med 2020	Bristol data.bris	EUR (UKB)	462690			yes	smoking_wootton2020
+LDL cholesterol	Mediator (exploratory)	Graham SE et al. Nature 2021 / GLGC	GLGC 2021	EUR 1.32M / EAS 147K / AFR 99K / HIS 48K / SAS 41K	1654000			yes	ldl_glgc_graham2021
+HDL cholesterol	Mediator (exploratory)	Graham SE et al. Nature 2021 / GLGC	GLGC 2021	EUR 1.32M / EAS 147K / AFR 99K / HIS 48K / SAS 41K	1654000			yes	hdl_glgc_graham2021
+Triglycerides	Mediator (exploratory)	Graham SE et al. Nature 2021 / GLGC	GLGC 2021	EUR 1.32M / EAS 147K / AFR 99K / HIS 48K / SAS 41K	1654000			yes	tg_glgc_graham2021
+Systolic blood pressure	Mediator (exploratory)	Keaton JM et al. Nat Genet 2024 / UKB+ICBP+MVP+BioVU	GCST90310294 (SBP) and related	EUR	~1030000			yes	sbp_keaton2024
+Type 2 diabetes	Mediator (exploratory)	Mahajan A et al. Nat Genet 2022 / DIAMANTE	DIAMANTE 2022	5-group trans-ancestry	1339889	180834	1159055	yes	t2d_diamante_mahajan2022

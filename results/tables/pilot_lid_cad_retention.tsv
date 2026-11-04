@@ -1,0 +1,15 @@
+set	step	n_snps
+S1	constructed (after clumping step)	418
+S2	constructed (after clumping step)	446
+S3	constructed (after clumping step)	418
+S1	both exposures present, alleles aligned	417
+S2	both exposures present, alleles aligned	444
+S3	both exposures present, alleles aligned	417
+S1	present in Aragam EUR (chr:pos + compatible alleles; no proxies)	417
+S1	kept by harmonise_data(action = 2) (ambiguous palindromes / incompatible alleles removed)	407
+S2	present in Aragam EUR (chr:pos + compatible alleles; no proxies)	444
+S2	kept by harmonise_data(action = 2) (ambiguous palindromes / incompatible alleles removed)	433
+S3	present in Aragam EUR (chr:pos + compatible alleles; no proxies)	417
+S3	kept by harmonise_data(action = 2) (ambiguous palindromes / incompatible alleles removed)	407
+S1-ref	no CAD step; ambiguous palindromes (MAF>0.42) removed	407
+S1-LDpruned	S1 after removing one SNP per pair with r2 >= 0.001 (weaker instrument dropped)	383

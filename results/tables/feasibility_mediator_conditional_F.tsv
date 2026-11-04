@@ -1,0 +1,89 @@
+model_type	model	ses_exposure	exposure	role	n_snps_clumped	n_snps	condF_pcor_x0	condF_pcor_x0.5	condF_pcor_x1	condF_pcor_x1.5	min_condF_any_scale
+full panel	EA + BMI + Smoking + LDL + HDL + TG + SBP + T2D	EA	EA	SES	701	665	5.84	6.21	6.63	7.11	5.84
+full panel	EA + BMI + Smoking + LDL + HDL + TG + SBP + T2D	EA	BMI	mediator	701	665	12.71	12.96	13.21	13.48	12.71
+full panel	EA + BMI + Smoking + LDL + HDL + TG + SBP + T2D	EA	Smoking	mediator	701	665	2.8	2.88	2.97	3.07	2.8
+full panel	EA + BMI + Smoking + LDL + HDL + TG + SBP + T2D	EA	LDL	mediator	701	665	78.37	78.71	79.06	79.41	78.37
+full panel	EA + BMI + Smoking + LDL + HDL + TG + SBP + T2D	EA	HDL	mediator	701	665	49.39	60.06	76.6	105.74	49.39
+full panel	EA + BMI + Smoking + LDL + HDL + TG + SBP + T2D	EA	TG	mediator	701	665	40.77	48.03	58.42	74.58	40.77
+full panel	EA + BMI + Smoking + LDL + HDL + TG + SBP + T2D	EA	SBP	mediator	701	665	23.42	23.74	24.07	24.41	23.42
+full panel	EA + BMI + Smoking + LDL + HDL + TG + SBP + T2D	EA	T2D	mediator	701	665	15.28	15.48	15.68	15.89	15.28
+full panel	Income + BMI + Smoking + LDL + HDL + TG + SBP + T2D	Income	Income	SES	688	650	2.7	2.82	2.94	3.07	2.7
+full panel	Income + BMI + Smoking + LDL + HDL + TG + SBP + T2D	Income	BMI	mediator	688	650	11.24	11.34	11.45	11.56	11.24
+full panel	Income + BMI + Smoking + LDL + HDL + TG + SBP + T2D	Income	Smoking	mediator	688	650	2.67	2.77	2.87	2.99	2.67
+full panel	Income + BMI + Smoking + LDL + HDL + TG + SBP + T2D	Income	LDL	mediator	688	650	79.98	80.51	81.05	81.59	79.98
+full panel	Income + BMI + Smoking + LDL + HDL + TG + SBP + T2D	Income	HDL	mediator	688	650	42.74	49.55	58.95	72.75	42.74
+full panel	Income + BMI + Smoking + LDL + HDL + TG + SBP + T2D	Income	TG	mediator	688	650	39.7	45.05	52.08	61.7	39.7
+full panel	Income + BMI + Smoking + LDL + HDL + TG + SBP + T2D	Income	SBP	mediator	688	650	23.49	23.92	24.36	24.81	23.49
+full panel	Income + BMI + Smoking + LDL + HDL + TG + SBP + T2D	Income	T2D	mediator	688	650	15.71	15.93	16.16	16.39	15.71
+full panel	TDI + BMI + Smoking + LDL + HDL + TG + SBP + T2D	TDI	TDI	SES	692	658	1.2	1.26	1.32	1.39	1.2
+full panel	TDI + BMI + Smoking + LDL + HDL + TG + SBP + T2D	TDI	BMI	mediator	692	658	11.36	11.4	11.44	11.48	11.36
+full panel	TDI + BMI + Smoking + LDL + HDL + TG + SBP + T2D	TDI	Smoking	mediator	692	658	2.23	2.39	2.57	2.78	2.23
+full panel	TDI + BMI + Smoking + LDL + HDL + TG + SBP + T2D	TDI	LDL	mediator	692	658	77.92	77.93	77.95	77.96	77.92
+full panel	TDI + BMI + Smoking + LDL + HDL + TG + SBP + T2D	TDI	HDL	mediator	692	658	45.18	53.5	65.6	84.77	45.18
+full panel	TDI + BMI + Smoking + LDL + HDL + TG + SBP + T2D	TDI	TG	mediator	692	658	29.76	33.61	38.59	45.32	29.76
+full panel	TDI + BMI + Smoking + LDL + HDL + TG + SBP + T2D	TDI	SBP	mediator	692	658	25.51	25.72	25.92	26.13	25.51
+full panel	TDI + BMI + Smoking + LDL + HDL + TG + SBP + T2D	TDI	T2D	mediator	692	658	15.69	16.01	16.33	16.67	15.69
+full panel	Occupation + BMI + Smoking + LDL + HDL + TG + SBP + T2D	Occupation	Occupation	SES	686	644	2.41	2.47	2.53	2.6	2.41
+full panel	Occupation + BMI + Smoking + LDL + HDL + TG + SBP + T2D	Occupation	BMI	mediator	686	644	12.39	12.57	12.76	12.95	12.39
+full panel	Occupation + BMI + Smoking + LDL + HDL + TG + SBP + T2D	Occupation	Smoking	mediator	686	644	2.96	3.04	3.12	3.21	2.96
+full panel	Occupation + BMI + Smoking + LDL + HDL + TG + SBP + T2D	Occupation	LDL	mediator	686	644	84.57	85.12	85.68	86.24	84.57
+full panel	Occupation + BMI + Smoking + LDL + HDL + TG + SBP + T2D	Occupation	HDL	mediator	686	644	45.89	53.35	63.72	79.1	45.89
+full panel	Occupation + BMI + Smoking + LDL + HDL + TG + SBP + T2D	Occupation	TG	mediator	686	644	48.55	56.27	66.91	82.53	48.55
+full panel	Occupation + BMI + Smoking + LDL + HDL + TG + SBP + T2D	Occupation	SBP	mediator	686	644	24.7	25.11	25.53	25.98	24.7
+full panel	Occupation + BMI + Smoking + LDL + HDL + TG + SBP + T2D	Occupation	T2D	mediator	686	644	15.74	15.92	16.1	16.28	15.74
+single mediator	EA + BMI	EA	EA	SES	552	549	19.32	19.74	20.19	20.66	19.32
+single mediator	EA + BMI	EA	BMI	mediator	552	549	36.83	38.53	40.39	42.44	36.83
+single mediator	EA + Smoking	EA	EA	SES	413	410	11.49	12.22	13.04	13.99	11.49
+single mediator	EA + Smoking	EA	Smoking	mediator	413	410	6.55	6.78	7.03	7.3	6.55
+single mediator	EA + LDL	EA	EA	SES	545	527	20.94	20.93	20.93	20.93	20.93
+single mediator	EA + LDL	EA	LDL	mediator	545	527	151.15	150.92	150.69	150.46	150.46
+single mediator	EA + HDL	EA	EA	SES	580	570	19.07	19.09	19.1	19.12	19.07
+single mediator	EA + HDL	EA	HDL	mediator	580	570	129.31	131.31	133.39	135.53	129.31
+single mediator	EA + TG	EA	EA	SES	559	545	21.03	21.05	21.07	21.09	21.03
+single mediator	EA + TG	EA	TG	mediator	559	545	125.57	126.95	128.37	129.83	125.57
+single mediator	EA + SBP	EA	EA	SES	571	568	20	20.04	20.08	20.12	20
+single mediator	EA + SBP	EA	SBP	mediator	571	568	61.11	61.56	62.02	62.49	61.11
+single mediator	EA + T2D	EA	EA	SES	430	422	35.7	35.75	35.8	35.85	35.7
+single mediator	EA + T2D	EA	T2D	mediator	430	422	44.89	44.99	45.1	45.2	44.89
+single mediator	Income + BMI	Income	Income	SES	531	530	5.97	6.01	6.05	6.09	5.97
+single mediator	Income + BMI	Income	BMI	mediator	531	530	22.67	23.27	23.91	24.58	22.67
+single mediator	Income + Smoking	Income	Income	SES	185	185	17.18	18.04	19	20.07	17.18
+single mediator	Income + Smoking	Income	Smoking	mediator	185	185	15.91	16.67	17.51	18.43	15.91
+single mediator	Income + LDL	Income	Income	SES	456	433	6.21	6.21	6.21	6.21	6.21
+single mediator	Income + LDL	Income	LDL	mediator	456	433	194.15	194.04	193.93	193.82	193.82
+single mediator	Income + HDL	Income	Income	SES	544	533	5.53	5.53	5.53	5.53	5.53
+single mediator	Income + HDL	Income	HDL	mediator	544	533	145.14	146.48	147.85	149.25	145.14
+single mediator	Income + TG	Income	Income	SES	497	485	7.12	7.13	7.13	7.13	7.12
+single mediator	Income + TG	Income	TG	mediator	497	485	120.6	121.58	122.58	123.59	120.6
+single mediator	Income + SBP	Income	Income	SES	541	538	6.05	6.05	6.06	6.06	6.05
+single mediator	Income + SBP	Income	SBP	mediator	541	538	61.23	61.77	62.32	62.88	61.23
+single mediator	Income + T2D	Income	Income	SES	283	280	14	14.01	14.01	14.02	14
+single mediator	Income + T2D	Income	T2D	mediator	283	280	72.47	72.74	73.01	73.29	72.47
+single mediator	TDI + BMI	TDI	TDI	SES	535	534	1.86	1.87	1.88	1.89	1.86
+single mediator	TDI + BMI	TDI	BMI	mediator	535	534	8.37	8.56	8.77	8.98	8.37
+single mediator	TDI + Smoking	TDI	TDI	SES	122	122	2.68	2.83	2.98	3.16	2.68
+single mediator	TDI + Smoking	TDI	Smoking	mediator	122	122	4.07	4.39	4.75	5.19	4.07
+single mediator	TDI + LDL	TDI	TDI	SES	438	433	1.66	1.66	1.66	1.66	1.66
+single mediator	TDI + LDL	TDI	LDL	mediator	438	433	44.44	44.54	44.63	44.72	44.44
+single mediator	TDI + HDL	TDI	TDI	SES	532	531	1.85	1.85	1.86	1.86	1.85
+single mediator	TDI + HDL	TDI	HDL	mediator	532	531	46.69	47.39	48.1	48.84	46.69
+single mediator	TDI + TG	TDI	TDI	SES	493	489	2.03	2.03	2.03	2.03	2.03
+single mediator	TDI + TG	TDI	TG	mediator	493	489	72.93	73.94	74.98	76.04	72.93
+single mediator	TDI + SBP	TDI	TDI	SES	531	531	1.47	1.47	1.47	1.47	1.47
+single mediator	TDI + SBP	TDI	SBP	mediator	531	531	51.36	50.95	50.54	50.15	50.15
+single mediator	TDI + T2D	TDI	TDI	SES	244	243	2.6	2.6	2.6	2.61	2.6
+single mediator	TDI + T2D	TDI	T2D	mediator	244	243	87.81	88.45	89.09	89.74	87.81
+single mediator	Occupation + BMI	Occupation	Occupation	SES	535	529	3.29	3.31	3.33	3.35	3.29
+single mediator	Occupation + BMI	Occupation	BMI	mediator	535	529	11.79	12.09	12.41	12.74	11.79
+single mediator	Occupation + Smoking	Occupation	Occupation	SES	156	154	12.23	12.62	13.04	13.48	12.23
+single mediator	Occupation + Smoking	Occupation	Smoking	mediator	156	154	17.3	18.12	19.01	20	17.3
+single mediator	Occupation + LDL	Occupation	Occupation	SES	443	429	3.68	3.68	3.68	3.68	3.68
+single mediator	Occupation + LDL	Occupation	LDL	mediator	443	429	166.04	165.26	164.49	163.72	163.72
+single mediator	Occupation + HDL	Occupation	Occupation	SES	535	523	3.52	3.52	3.52	3.52	3.52
+single mediator	Occupation + HDL	Occupation	HDL	mediator	535	523	74.91	75.59	76.29	77	74.91
+single mediator	Occupation + TG	Occupation	Occupation	SES	495	491	3.86	3.86	3.86	3.86	3.86
+single mediator	Occupation + TG	Occupation	TG	mediator	495	491	88.25	88.97	89.71	90.45	88.25
+single mediator	Occupation + SBP	Occupation	Occupation	SES	534	533	3.14	3.14	3.15	3.15	3.14
+single mediator	Occupation + SBP	Occupation	SBP	mediator	534	533	57.02	57.63	58.25	58.88	57.02
+single mediator	Occupation + T2D	Occupation	Occupation	SES	259	249	7.03	7.03	7.03	7.03	7.03
+single mediator	Occupation + T2D	Occupation	T2D	mediator	259	249	72.51	72.71	72.91	73.11	72.51

@@ -1,0 +1,13 @@
+set	outcome	cell	seed	nsnp	rerun_global_p	outliers_indices_raw	n_numeric_outliers	smallest_outlier_test_p	stored_global_p	stored_n_outliers	global_p_matches	confirmed
+EA3	stroke_gigastroke_eur	59	20260565	305	3e-04	No significant outliers	0	0.0915;0.183;0.2135	3e-04	0	TRUE	TRUE
+EA3	stroke_mvp_phe433_21_eur	60	20260566	302	0.0038	No significant outliers	0	0.302;0.5436;0.604	0.0038	0	TRUE	TRUE
+EA4	pad_mvp_eur	4	20260510	404	1e-04	No significant outliers	0	0.1212;0.1616;0.3636	1e-04	0	TRUE	TRUE
+EA4	stroke_gigastroke_eur	11	20260517	405	<1e-04	No significant outliers	0	0.081;0.081;0.162	<1e-04	0	TRUE	TRUE
+EA4	stroke_mvp_phe433_21_eur	12	20260518	404	2e-04	No significant outliers	0	0.404;1;1	2e-04	0	TRUE	TRUE
+Kweon	pad_mvp_afr	19	20260525	117	0.0375	No significant outliers	0	0.3627;0.6201;1	0.0375	0	TRUE	TRUE
+Kweon	stroke_gigastroke_multi	22	20260528	130	<1e-04	No significant outliers	0	0.052;0.065;0.806	<1e-04	0	TRUE	TRUE
+TDI_EUR	stroke_gigastroke_multi	82	20260588	8	0.0442	No significant outliers	0	0.1272;0.1864;0.4432	0.0442	0	TRUE	TRUE
+TDI_EUR	stroke_mvp_phe433_21_eur	84	20260590	8	0.0263	No significant outliers	0	0.0656;0.4232;0.6792	0.0263	0	TRUE	TRUE
+gSES	stroke_gigastroke_eur	95	20260601	374	<1e-04	No significant outliers	0	0.2244;0.3366;0.4488	<1e-04	0	TRUE	TRUE
+gSES	stroke_gigastroke_multi	94	20260600	371	<1e-04	No significant outliers	0	0.4081;0.4823;0.5565	<1e-04	0	TRUE	TRUE
+gSES	stroke_mvp_phe433_21_eur	96	20260602	375	<1e-04	No significant outliers	0	0.1125;0.7125;0.9375	<1e-04	0	TRUE	TRUE

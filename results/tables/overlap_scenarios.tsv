@@ -1,0 +1,97 @@
+set	outcome	n_snps	F_outcome_specific	phi_ukb	scenario_pct	note
+EA4	cad_aragam_eur	408	53.5427342057294	0.378420506309568	0.706763507548097	""
+EA4	cad_aragam_multi	404	53.4797114391401	0.320077348948243	0.598502385923475	""
+EA4	cad_mvp_phe411_eur	404	53.5514759376044	0	0	UKB-free outcome (UKB-mediated only; total overlap unknown)
+EA4	hf_hermes2	406	53.5940719756253	0.21671498790813	0.404363728896532	""
+EA4	hf_mvp_phe428_eur	404	53.5514759376044	0	0	UKB-free outcome (UKB-mediated only; total overlap unknown)
+EA4	pad_finngen_athscle	399	53.6449974633462	0	0	UKB-free outcome (UKB-mediated only; total overlap unknown)
+EA4	pad_mvp_afr	355	53.3945885897168	0	0	UKB-free outcome (UKB-mediated only; total overlap unknown)
+EA4	pad_mvp_eur	404	53.5514759376044	0	0	UKB-free outcome (UKB-mediated only; total overlap unknown)
+EA4	pad_vanzuydam	403	53.4201660261437	0.895982531615956	1.67723651622023	""
+EA4	stroke_gigastroke_eur	405	53.5953482463743	0.284571939531969	0.530963878103395	""
+EA4	stroke_gigastroke_multi	399	53.6660059174746	0.230689309080095	0.42986114792079	""
+EA4	stroke_mvp_phe433_21_eur	404	53.5514759376044	0	0	UKB-free outcome (UKB-mediated only; total overlap unknown)
+Kweon	cad_aragam_eur	131	45.7656585744015			not calculated (UKB N of the income factor not documented)
+Kweon	cad_aragam_multi	130	45.0811718636734			not calculated (UKB N of the income factor not documented)
+Kweon	cad_mvp_phe411_eur	130	45.8681728103332	0	0	UKB-free outcome (UKB-mediated only; total overlap unknown)
+Kweon	hf_hermes2	131	45.7656585744015			not calculated (UKB N of the income factor not documented)
+Kweon	hf_mvp_phe428_eur	130	45.8681728103332	0	0	UKB-free outcome (UKB-mediated only; total overlap unknown)
+Kweon	pad_finngen_athscle	127	45.0198102309253	0	0	UKB-free outcome (UKB-mediated only; total overlap unknown)
+Kweon	pad_mvp_afr	117	44.3462231085827	0	0	UKB-free outcome (UKB-mediated only; total overlap unknown)
+Kweon	pad_mvp_eur	130	45.8681728103332	0	0	UKB-free outcome (UKB-mediated only; total overlap unknown)
+Kweon	pad_vanzuydam	128	45.1934307447273			not calculated (UKB N of the income factor not documented)
+Kweon	stroke_gigastroke_eur	131	45.7656585744015			not calculated (UKB N of the income factor not documented)
+Kweon	stroke_gigastroke_multi	130	45.0811718636734			not calculated (UKB N of the income factor not documented)
+Kweon	stroke_mvp_phe433_21_eur	130	45.8681728103332	0	0	UKB-free outcome (UKB-mediated only; total overlap unknown)
+TDI	cad_aragam_eur	9	34.2609082747534	0.37677083958857	1.09971059893415	""
+TDI	cad_aragam_multi	9	34.2609082747534	0.318682020360333	0.930162206456058	""
+TDI	cad_mvp_phe411_eur	9	34.2609082747534	0	0	UKB-free outcome (UKB-mediated only; total overlap unknown)
+TDI	hf_hermes2	9	34.2609082747534	0.21671498790813	0.632543031755597	""
+TDI	hf_mvp_phe428_eur	9	34.2609082747534	0	0	UKB-free outcome (UKB-mediated only; total overlap unknown)
+TDI	pad_finngen_athscle	9	34.2609082747534	0	0	UKB-free outcome (UKB-mediated only; total overlap unknown)
+TDI	pad_mvp_afr	8	34.7962048767315	0	0	UKB-free outcome (UKB-mediated only; total overlap unknown)
+TDI	pad_mvp_eur	9	34.2609082747534	0	0	UKB-free outcome (UKB-mediated only; total overlap unknown)
+TDI	pad_vanzuydam	9	34.2609082747534	0.895982531615956	2.61517448524912	""
+TDI	stroke_gigastroke_eur	9	34.2609082747534	0.284571939531969	0.830602438352948	""
+TDI	stroke_gigastroke_multi	9	34.2609082747534	0.230689309080095	0.67333097893989	""
+TDI	stroke_mvp_phe433_21_eur	9	34.2609082747534	0	0	UKB-free outcome (UKB-mediated only; total overlap unknown)
+CAMSIS	cad_aragam_eur	62	41.423004161988	0.234330739733548	0.56570194382131	""
+CAMSIS	cad_aragam_multi	62	41.0882911594917	0.198202689073191	0.482382409878842	""
+CAMSIS	cad_mvp_phe411_eur	63	41.5217666587508	0	0	UKB-free outcome (UKB-mediated only; total overlap unknown)
+CAMSIS	hf_hermes2	63	41.5217666587508	0.140343278620638	0.337999295102392	""
+CAMSIS	hf_mvp_phe428_eur	63	41.5217666587508	0	0	UKB-free outcome (UKB-mediated only; total overlap unknown)
+CAMSIS	pad_finngen_athscle	58	41.1455373037145	0	0	UKB-free outcome (UKB-mediated only; total overlap unknown)
+CAMSIS	pad_mvp_afr	56	41.2558732366964	0	0	UKB-free outcome (UKB-mediated only; total overlap unknown)
+CAMSIS	pad_mvp_eur	63	41.5217666587508	0	0	UKB-free outcome (UKB-mediated only; total overlap unknown)
+CAMSIS	pad_vanzuydam	60	40.8080696661542	0.591717681106678	1.45000164415383	""
+CAMSIS	stroke_gigastroke_eur	59	41.8338331857435	0.208762209009064	0.49902720623796	""
+CAMSIS	stroke_gigastroke_multi	61	40.9811889134167	0.169233866970658	0.412954995835305	""
+CAMSIS	stroke_mvp_phe433_21_eur	63	41.5217666587508	0	0	UKB-free outcome (UKB-mediated only; total overlap unknown)
+EA3	cad_aragam_eur	305	49.985790978806	0.379331554701507	0.758878767892948	""
+EA3	cad_aragam_multi	303	50.0551888027277	0.320847936031114	0.640988364454295	""
+EA3	cad_mvp_phe411_eur	302	50.0523000339342	0	0	UKB-free outcome (UKB-mediated only; total overlap unknown)
+EA3	hf_hermes2	304	49.9932658853534	0.21671498790813	0.433488359022412	""
+EA3	hf_mvp_phe428_eur	302	50.0523000339342	0	0	UKB-free outcome (UKB-mediated only; total overlap unknown)
+EA3	pad_finngen_athscle	298	50.2884559011885	0	0	UKB-free outcome (UKB-mediated only; total overlap unknown)
+EA3	pad_mvp_afr	261	50.0876561079377	0	0	UKB-free outcome (UKB-mediated only; total overlap unknown)
+EA3	pad_mvp_eur	302	50.0523000339342	0	0	UKB-free outcome (UKB-mediated only; total overlap unknown)
+EA3	pad_vanzuydam	303	49.9262907351687	0.895982531615956	1.79461065186806	""
+EA3	stroke_gigastroke_eur	305	49.985790978806	0.284571939531969	0.569305664589018	""
+EA3	stroke_gigastroke_multi	301	50.1045822551779	0.230689309080095	0.460415592141286	""
+EA3	stroke_mvp_phe433_21_eur	302	50.0523000339342	0	0	UKB-free outcome (UKB-mediated only; total overlap unknown)
+Hill	cad_aragam_eur	27	39.7685977664952	0.245606464840567	0.617588948654078	""
+Hill	cad_aragam_multi	27	39.7685977664952	0.207739974023524	0.522371885584922	""
+Hill	cad_mvp_phe411_eur	27	39.7685977664952	0	0	UKB-free outcome (UKB-mediated only; total overlap unknown)
+Hill	hf_hermes2	27	39.7685977664952	0.14709643542859	0.369880870058027	""
+Hill	hf_mvp_phe428_eur	27	39.7685977664952	0	0	UKB-free outcome (UKB-mediated only; total overlap unknown)
+Hill	pad_finngen_athscle	26	40.0637189375477	0	0	UKB-free outcome (UKB-mediated only; total overlap unknown)
+Hill	pad_mvp_afr	25	40.3586497004227	0	0	UKB-free outcome (UKB-mediated only; total overlap unknown)
+Hill	pad_mvp_eur	27	39.7685977664952	0	0	UKB-free outcome (UKB-mediated only; total overlap unknown)
+Hill	pad_vanzuydam	26	39.4407798346306	0.620190453909374	1.57245991714601	""
+Hill	stroke_gigastroke_eur	26	40.0637189375477	0.218807605887838	0.546149013846968	""
+Hill	stroke_gigastroke_multi	26	40.0637189375477	0.177377205590801	0.442737744509692	""
+Hill	stroke_mvp_phe433_21_eur	27	39.7685977664952	0	0	UKB-free outcome (UKB-mediated only; total overlap unknown)
+TDI_EUR	cad_aragam_eur	8	34.155908718142			not calculated (UKB N of EUR stratum not in d7_evidence)
+TDI_EUR	cad_aragam_multi	8	34.155908718142			not calculated (UKB N of EUR stratum not in d7_evidence)
+TDI_EUR	cad_mvp_phe411_eur	8	34.155908718142	0	0	UKB-free outcome (UKB-mediated only; total overlap unknown)
+TDI_EUR	hf_hermes2	8	34.155908718142			not calculated (UKB N of EUR stratum not in d7_evidence)
+TDI_EUR	hf_mvp_phe428_eur	8	34.155908718142	0	0	UKB-free outcome (UKB-mediated only; total overlap unknown)
+TDI_EUR	pad_finngen_athscle	8	34.155908718142	0	0	UKB-free outcome (UKB-mediated only; total overlap unknown)
+TDI_EUR	pad_mvp_afr	7	34.474824212222	0	0	UKB-free outcome (UKB-mediated only; total overlap unknown)
+TDI_EUR	pad_mvp_eur	8	34.155908718142	0	0	UKB-free outcome (UKB-mediated only; total overlap unknown)
+TDI_EUR	pad_vanzuydam	8	34.155908718142			not calculated (UKB N of EUR stratum not in d7_evidence)
+TDI_EUR	stroke_gigastroke_eur	8	34.155908718142			not calculated (UKB N of EUR stratum not in d7_evidence)
+TDI_EUR	stroke_gigastroke_multi	8	34.155908718142			not calculated (UKB N of EUR stratum not in d7_evidence)
+TDI_EUR	stroke_mvp_phe433_21_eur	8	34.155908718142	0	0	UKB-free outcome (UKB-mediated only; total overlap unknown)
+gSES	cad_aragam_eur	378	51.6505431002245			not calculated (§7.4)
+gSES	cad_aragam_multi	375	51.517680156073			not calculated (§7.4)
+gSES	cad_mvp_phe411_eur	375	51.7403053670247	0	0	UKB-free outcome (UKB-mediated only; total overlap unknown)
+gSES	hf_hermes2	377	51.6935638022769			not calculated (§7.4)
+gSES	hf_mvp_phe428_eur	375	51.7403053670247	0	0	UKB-free outcome (UKB-mediated only; total overlap unknown)
+gSES	pad_finngen_athscle	365	51.9755398523172	0	0	UKB-free outcome (UKB-mediated only; total overlap unknown)
+gSES	pad_mvp_afr	345	52.037555740553	0	0	UKB-free outcome (UKB-mediated only; total overlap unknown)
+gSES	pad_mvp_eur	375	51.7403053670247	0	0	UKB-free outcome (UKB-mediated only; total overlap unknown)
+gSES	pad_vanzuydam	372	51.3927725479313			not calculated (§7.4)
+gSES	stroke_gigastroke_eur	374	51.7656339866354			not calculated (§7.4)
+gSES	stroke_gigastroke_multi	371	51.6574854008467			not calculated (§7.4)
+gSES	stroke_mvp_phe433_21_eur	375	51.7403053670247	0	0	UKB-free outcome (UKB-mediated only; total overlap unknown)

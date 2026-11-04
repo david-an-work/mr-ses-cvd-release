@@ -1,0 +1,6 @@
+set	n_snps	pairs_r2_ge_0.001	max_r2	snps_involved
+S1	407	26	0.00180216	49
+S2	433	72	1	112
+S3	407	26	0.00180216	49
+S1-ref	407	26	0.00180216	49
+S1-LDpruned	383	0	0	0

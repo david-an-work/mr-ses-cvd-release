@@ -1,0 +1,11 @@
+data/raw/*
+!data/raw/SOURCES.md
+!data/raw/MANIFEST.tsv
+!data/raw/.gitkeep
+data/harmonized/*
+!data/harmonized/.gitkeep
+data/reference/
+renv/library/
+.Rhistory
+.DS_Store
+__pycache__/
