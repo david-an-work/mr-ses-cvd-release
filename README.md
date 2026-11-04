@@ -3,7 +3,7 @@
 Code and derived results for:
 
 > An DH. *Conditional Instrument Strength and the Attribution of Socioeconomic Effects on Cardiovascular Disease: A
-> Mendelian Randomization Study.* Manuscript under review.
+> Mendelian Randomization Study.* Unpublished manuscript.
 
 A preregistered two-sample mendelian randomization (MR) and multivariable MR (MVMR) study of four socioeconomic
 measures (educational attainment, income, occupational status, area deprivation) and four cardiovascular outcomes
@@ -14,7 +14,7 @@ only. No individual-level data were used.
   the frozen plan files, which are the canonical registered record. `ANALYSIS_PLAN.md` here is identical to the registered plan v1.0
   (SHA-256 `832d832d9072cd997de3bef9f0429edfe243db4838bd54ed2009ee5b99f8487b`).
 - **Departures from the plan:** `results/logs/DEVIATIONS.md` (dated).
-- **Archived release:** tagged releases are archived on Zenodo.
+- **Archived release:** the first tagged release will be archived on Zenodo.
 
 ## What is in this repository
 
