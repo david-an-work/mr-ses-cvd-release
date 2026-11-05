@@ -80,7 +80,7 @@ registry <- list(
     file = raw("Wootton Data", "2019.10.02 Lifetime Smoking GWAS Data Sheet 1.txt"),
     cols = c(rsid = "SNP", chr = "CHR", pos = "BP", ea = "EFFECT_ALLELE", oa = "OTHER_ALLELE",
              eaf = "EAF", beta = "BETA", se = "SE", pval = "P"),
-    n_default = 462690, units = "SD lifetime smoking index per allele", sign = 1),
+    n_default = 462690, units = "lifetime smoking index per allele (unstandardised; SD 0.694)", sign = 1),
   ldl_glgc_graham2021 = list(role = "mediator", label = "LDL-C (Graham 2021, trans-ancestry)",
     file = raw("ldl_glgc_graham2021_trans_ancestry.tsv.gz"),
     cols = c(rsid = "rsID", chr = "CHROM", pos = "POS_b37", ea = "ALT", oa = "REF", eaf = "POOLED_ALT_AF",

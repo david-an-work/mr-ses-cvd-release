@@ -9,7 +9,7 @@ ses_gses_xia2025	exposure (shared SES factor; secondary)	1	as published	per rele
 ea_lee2018	exposure (sensitivity)	1	as published	SD of educational attainment per allele (SE*sqrt(2pqN) ~ 1.05)
 income_hill2019	exposure (sensitivity)	1	as published	standardized log household income per allele
 bmi_giant_yengo2018	mediator	1	as published	SD BMI per allele
-smoking_wootton2020	mediator	1	as published	SD lifetime smoking index per allele
+smoking_wootton2020	mediator	1	as published	lifetime smoking index per allele (unstandardised; SD 0.694)
 ldl_glgc_graham2021	mediator	1	as published	SD (inverse-normal) per ALT allele
 hdl_glgc_graham2021	mediator	1	as published	SD (inverse-normal) per ALT allele
 tg_glgc_graham2021	mediator	1	as published	SD (inverse-normal log TG) per ALT allele
