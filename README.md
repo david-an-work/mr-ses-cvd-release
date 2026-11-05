@@ -3,7 +3,7 @@
 Code and derived results for:
 
 > An DH. *Conditional Instrument Strength and the Attribution of Socioeconomic Effects on Cardiovascular Disease: A
-> Mendelian Randomization Study.* Unpublished manuscript.
+> Mendelian Randomization Study.* Manuscript under review.
 
 A preregistered two-sample mendelian randomization (MR) and multivariable MR (MVMR) study of four socioeconomic
 measures (educational attainment, income, occupational status, area deprivation) and four cardiovascular outcomes
