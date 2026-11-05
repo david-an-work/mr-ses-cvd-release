@@ -69,7 +69,7 @@ registry <- list(
     file = raw("Hill Data", "Household_Income_UKBiobank.txt.gz"),
     cols = c(rsid = "SNP", chr = "Chr", pos = "BPos", ea = "Effect_Allele", oa = "Non_effect_Allele",
              beta = "Beta", se = "Standard_Error_of_Beta", pval = "P"),
-    n_default = 286301, units = "standardized log household income per allele", sign = 1),
+    n_default = 286301, units = "residualised 1-5 household income band per allele (released units; not SD)", sign = 1),
   # Mediators
   bmi_giant_yengo2018 = list(role = "mediator", label = "BMI (Yengo 2018)",
     file = raw("bmi_giant_yengo2018_combined.txt.gz"), strip_rsid_suffix = TRUE,

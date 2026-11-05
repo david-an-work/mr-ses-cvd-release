@@ -7,7 +7,7 @@ occupation_akimova2024	exposure	1	as published	SD of CAMSIS occupational status 
 occupation_akimova2024_isei	exposure (comparable model)	1	as published	SD of ISEI occupational status per allele
 ses_gses_xia2025	exposure (shared SES factor; secondary)	1	as published	per released gSES factor unit per allele (Genomic SEM; normalization not stated in paper, supplement or deposit metadata)
 ea_lee2018	exposure (sensitivity)	1	as published	SD of educational attainment per allele (SE*sqrt(2pqN) ~ 1.05)
-income_hill2019	exposure (sensitivity)	1	as published	standardized log household income per allele
+income_hill2019	exposure (sensitivity)	1	as published	residualised 1-5 household income band per allele (released units; not SD)
 bmi_giant_yengo2018	mediator	1	as published	SD BMI per allele
 smoking_wootton2020	mediator	1	as published	lifetime smoking index per allele (unstandardised; SD 0.694)
 ldl_glgc_graham2021	mediator	1	as published	SD (inverse-normal) per ALT allele
