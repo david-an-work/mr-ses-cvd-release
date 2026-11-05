@@ -90,7 +90,7 @@ auto_downloads <- tribble(
   "pad_finngen_r12_athscle",      "https://storage.googleapis.com/finngen-public-data-r12/summary_stats/release/finngen_R12_I9_ATHSCLE.gz",                                                    "pad_finngen_r12_athscle.tsv.gz",                 "outcome sensitivity",
   "pad_finngen_r12_othper",       "https://storage.googleapis.com/finngen-public-data-r12/summary_stats/release/finngen_R12_I9_OTHPER.gz",                                                     "pad_finngen_r12_othper.tsv.gz",                  "outcome sensitivity",
   "pad_finngen_r12_artembthrlow", "https://storage.googleapis.com/finngen-public-data-r12/summary_stats/release/finngen_R12_I9_ARTEMBTHRLOW.gz",                                              "pad_finngen_r12_artembthrlow.tsv.gz",            "outcome sensitivity",
-  # --- Added 2026-10-06/07 after user approval of plan v0.6 scope ---
+  # --- Added 2026-10-06/07 after approval of plan v0.6 scope ---
   "stroke_gigastroke_any_eur",    "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90104001-GCST90105000/GCST90104539/GCST90104539_buildGRCh37.tsv.gz", "stroke_gigastroke_any_eur.tsv.gz", "outcome sensitivity (EUR LDSC)",
   "occupation_akimova2024_isei",  "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90446001-GCST90447000/GCST90446163/GCST90446163.tsv", "occupation_akimova2024_isei.tsv", "exposure (Le-comparable)",
   # MVP gwPheWAS EUR (GIA) via the GWAS Catalog deposit; identical to the dbGaP files (Phe_411 checked 2026-10-07)
@@ -120,7 +120,7 @@ range_downloads <- tribble(
   "pad_mvp_phe440_2_meta",  70992927744,    875714288,    "pad_mvp_phe440_2_META.txt.gz",    "MVP_R4.1000G_AGR.Phe_440_2.META.GIA.dbGaP.txt.gz",
   "pad_mvp_phe440_2_amr",   127403379200,   866420962,    "pad_mvp_phe440_2_AMR.txt.gz",     "MVP_R4.1000G_AGR.Phe_440_2.AMR.GIA.dbGaP.txt.gz"
 ) %>% mutate(url = MVP_TAR_URL)
-# Phe_411 (ischaemic heart disease; UKB-free CAD comparator), added 2026-10-06 after user approval. Member of the
+# Phe_411 (ischaemic heart disease; UKB-free CAD comparator), added 2026-10-06 after approval. Member of the
 # circulatory batch1 tar; offset found by walking the tar headers (GNU ././@LongLink names), 2026-10-06.
 MVP_TAR_URL_B1 <- sub("batch2", "batch1", MVP_TAR_URL)
 range_downloads <- bind_rows(range_downloads, tribble(
@@ -130,7 +130,7 @@ range_downloads <- bind_rows(range_downloads, tribble(
 
 # ---- Manual file registry ----------------------------------------------------
 
-# The user already downloaded these via source-portal click-through workflows.
+# These files are obtained through source-portal click-through downloads (see README, Data).
 # Map on-disk filenames to dataset keys.
 manual_files <- tribble(
   ~existing_path,                                                              ~dataset,

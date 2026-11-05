@@ -1,9 +1,8 @@
 # Sources
 
-> One section per dataset. Updated as part of T1.1 sumstat reconnaissance (2026-05-07).
-> When a file is downloaded for the first time, add: file path, sha256, row count, and
-> any column-renaming notes. The MANIFEST.tsv row stays the source of truth for
-> URL/access metadata; this file is the place for the *narrative* about each dataset.
+> Source log, one section per dataset, kept during the project (reconnaissance in May 2026, corrections through
+> November 2026). Dated entries record decisions as they were made. `MANIFEST.tsv` holds the URL/access metadata;
+> this file holds the narrative for each dataset.
 
 This file preserves the May reconnaissance notes and later corrections. Some dataset roles, proposed analyses,
 overlap statements and access assessments below were superseded as the study developed. For the current study,
@@ -21,14 +20,14 @@ release's redistribution and licensing scope.
 - **Beta scale (corrected 2026-10-03):** SD units of educational attainment per allele, not years of schooling. Evidence: SE·√(2pqN) median 1.05 across instruments, and median instrument |β| 0.013 (≈2.7 weeks per allele at SD ≈ 4 years; ≈0.7 weeks if read as years). The published "weeks per allele" figures are SD-scale betas multiplied by the EA SD.
 - **Sample-overlap caveat:** UKB ≈ 442k. Any UKB-derived CVD outcome inherits substantial overlap → MR-RAPS as sensitivity per `ANALYSIS_PLAN.md` §8.
 - **Ancestry:** EUR only.
-- **Within-family caveat:** sibship MR studies report direct EA effects ~40% smaller than population estimates, consistent with substantial assortative-mating + dynastic contributions. Discuss in Limitations.
+- **Within-family caveat:** sibship MR studies report direct EA effects ~40% smaller than population estimates, consistent with substantial assortative-mating + dynastic contributions (addressed in the manuscript Limitations).
 
 ### EA — Okbay et al. 2022 (SSGAC EA4)
 - **Citation:** Okbay A, Wedow R, Kong A, et al. *Nat Genet* 54:437–449 (2022).
 - **What's released:** Excl-23andMe meta, N = 765,283 EUR. The full N ≈ 3.04M meta (including 23andMe) is **restricted** — only ~10,000 lead SNPs are deposited publicly. Confirmed via SSGAC EA4 FAQ.
 - **URL:** https://www.thessgac.org/data — file `EA4_additive_excl_23andMe.txt.gz`. Mirror: OSF project https://osf.io/uegqv/ .
 - **Beta scale (corrected 2026-10-03):** SD units of educational attainment per allele (SE·√(2pqN) median 1.07), consistent with Lee 2018.
-- **Q2 (open question) resolved:** access is **mixed**; the excl-23andMe file is the standard MR primary going forward. Project decision: use EA4 excl-23andMe as primary; Lee 2018 as a secondary/sensitivity comparator.
+- **Q2 (open question) resolved:** access is **mixed**; the excl-23andMe file is the standard MR primary going forward. Decision: EA4 excl-23andMe as primary; Lee 2018 as a secondary/sensitivity comparator.
 - **Direct vs population effects:** Okbay reports direct effects ≈ 56% of population effects.
 
 ### Income — Hill et al. 2019 (SENSITIVITY comparator from 2026-10-03; was primary)
@@ -50,7 +49,7 @@ release's redistribution and licensing scope.
 - **File (downloaded and validated 2026-10-03):** `data/raw/income_kweon2025_incfactor.txt`, uncompressed TSV, 9,131,507 rows (matches the paper's Table 1), sha256 `f56992516f07b716dce6fb07bf1527a50aa7c0855ba76404e958673f18d3656b`. Columns `SNP CHR BP A1 A2 EAF BETA SE P N`; autosomes only; **GRCh37**.
 - **Effect allele:** `A1` (the deposit's FAQ does not define columns, so this was confirmed empirically: 100% sign agreement with Hill 2019 across 3,176 SNPs genome-wide significant in both; `EAF` correlates 0.998 with the 1000G EUR frequency of `A1`).
 - **Beta scale:** SD units of the Income Factor (SE·√(2pqN) has median 1.00). Per-SNP N 485,056–692,936 (median 655,729).
-- **Status:** primary income exposure (user decision D1, 2026-10-03).
+- **Status:** primary income exposure (decision D1, 2026-10-03).
 - **Contact:** correspondence to Abdellaoui, Hill or Koellinger (per paper).
 
 ### TDI — Pan-UKB phenotype 189-irnt
@@ -58,14 +57,13 @@ release's redistribution and licensing scope.
 - **URL:** https://pan-ukb-us-east-1.s3.amazonaws.com/sumstats_flat_files/continuous-189-both_sexes-irnt.tsv.bgz (1.81 GB; tabix-indexed). Manifest: `phenotype_manifest.tsv.bgz` in same bucket.
 - **Ancestry:** N = 439,198 total — EUR 420,035; CSA 8,864; AFR 6,624; EAS 2,698; AMR 977; MID failed QC.
 - **Beta scale:** inverse-rank-normal-transformed Townsend score (SD units).
-- **CRITICAL sign convention:** higher TDI = **more** deprivation. To match the project's "higher = higher SES" convention, multiply beta and signed Z by −1 in `02_select_instruments.R`. Document in `EXPOSURE_DIRECTIONS.tsv`.
+- **CRITICAL sign convention:** higher TDI = **more** deprivation. To match the project's "higher = higher SES" convention, beta and signed Z are multiplied by −1 in `02_select_instruments.R` (recorded in `EXPOSURE_DIRECTIONS.tsv`).
 
-### Occupational status — Akimova et al. 2024 (CANDIDATE — pending decision)
-- **Citation:** Akimova ES, Breen R, Brazel DM, Mills MC. *Nat Hum Behav* (2024).
+### Occupational status — Akimova et al. 2024 (adopted: CAMSIS primary; ISEI comparable-model only)
+- **Citation:** Akimova ET, Wolfram T, Ding X, Tropf FC, Mills MC. *Nat Hum Behav* 2025;9:391-405 (published online 2024).
 - **What it is:** GWAS of three occupational status scales (CAMSIS, SIOPS, ISEI) in UKB. N = 273,157 EUR.
 - **URL / accessions:** GWAS Catalog GCST90446160 (CAMSIS), GCST90446162 (SIOPS), GCST90446163 (ISEI). Open.
-- **If adopted:** adds an occupational SES dimension distinct from EA/income and TDI, expanding the exposure dimension to 5. Adds rows to the primary results grid (5 × 4 = 20 cells) and would require Bonferroni at α = 0.05/20.
-- **Pending user decision** before adding.
+- **As adopted:** occupational status (CAMSIS) is one of the four primary exposures in the registered plan (16-cell primary grid, Bonferroni α = 0.05/16); ISEI is used only in the comparable model.
 
 ---
 
@@ -97,7 +95,7 @@ release's redistribution and licensing scope.
 - **URL:** https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90726001-GCST90727000/GCST90726617/GCST90726617.tsv.gz (495 MB). Subtypes: GCST90726618 (ni-HF), 90726619 (ni-HFpEF), 90726620 (ni-HFrEF). Mirror set 90728695–698.
 - **Sample size:** all-cause HF 153,174 cases / 1,793,175 controls. Subtypes: ni-HF 44,012; ni-HFrEF 5,406; ni-HFpEF 3,841 cases.
 - **Ancestry:** EUR 91% / EAS 6.2% / AFR 2.2% / SAS 0.5% / AMR 0.1%.
-- **Q3 (open question) resolved:** HERMES 2.0 supersedes Shah 2020 (47K cases) and Joseph 2022 (115K cases). Use HERMES 2.0 all-cause HF as primary; subtypes as supplementary.
+- **Q3 (open question) resolved:** HERMES 2.0 supersedes Shah 2020 (47K cases) and Joseph 2022 (115K cases). HERMES 2.0 all-cause HF is the primary HF outcome; subtypes were not analysed.
 - **Uploaded:** 2026-02. UKB included.
 
 ### Stroke — GIGASTROKE / Mishra et al. 2022
@@ -124,7 +122,7 @@ release's redistribution and licensing scope.
 - **URL:** https://doi.org/10.5523/bris.10i96zb8gm0j81yz0q6ztei23d (Bristol data.bris).
 - **N:** 462,690 EUR (UKB).
 - **Beta scale (corrected 2026-10-08):** NOT SD units. The data.bris README states the betas are unstandardised (divide beta and SE by SD 0.6940093 for SD units); the released SEs imply ≈0.67. Smoking failed the mediation strength gate, so no smoking estimate is interpreted; indirect effects (a×b) are invariant to mediator scale.
-- **Alternative:** Saunders et al. 2022 GSCAN multi-ancestry (UMN: https://conservancy.umn.edu/handle/11299/241912; ~3.4M total). Useful if ancestry-stratified mediation through smoking is desired; otherwise Wootton stays primary.
+- **Alternative:** Saunders et al. 2022 GSCAN multi-ancestry (UMN: https://conservancy.umn.edu/handle/11299/241912; ~3.4M total). Not used; Wootton 2020 is the smoking mediator.
 
 ### Lipids — Graham et al. 2021 / GLGC
 - **URL:** https://csg.sph.umich.edu/willer/public/glgc-lipids2021/results/trans_ancestry/
@@ -155,7 +153,7 @@ Realistically (as of 2026-05-07; PAD rows updated 2026-10-03), the (exposure × 
 - **AFR**: Pan-UKB AFR (~6.6K) plus GBMI AFR cover CAD/HF/stroke and BMI/lipids. SES instruments in AFR rest entirely on Pan-UKB AFR — very low power. **PAD AFR:** MVP `phs002453` `Phe_440_2` AFR (4,282 cases), open access; adopted 2026-10-03 (the earlier "no openly available AFR PAD" statement was wrong).
 - **HIS / AMR / SAS**: GLGC and Pan-UKB give mediator coverage; outcomes only via Pan-UKB phecodes; SES exposures only via Pan-UKB. **PAD AMR:** MVP `Phe_440_2` AMR (1,163 cases), reported descriptively only. No open SAS PAD sumstats identified.
 
-**Q4 (open question, All of Us) resolved negative** *(2026-09-06 update: the user holds All of Us Controlled Tier access; All of Us is deferred to a follow-up paper — see `DEVIATIONS.md`)*: as of 2026-05-07 All of Us has no openly downloadable sumstats — the All-by-All tables sit inside the Researcher Workbench Controlled Tier and require a workbench application + institutional DUC. AoU is therefore unusable under the project's "no application" constraint.
+**Q4 (open question, All of Us) resolved negative** *(2026-09-06 update: the author holds All of Us Controlled Tier access; All of Us is deferred to a follow-up paper — see `DEVIATIONS.md`)*: as of 2026-05-07 All of Us has no openly downloadable sumstats — the All-by-All tables sit inside the Researcher Workbench Controlled Tier and require a workbench application + institutional DUC. AoU is therefore unusable under the project's "no application" constraint.
 
 The realistic ancestry plan: **EUR** (full primary), **EAS** (CVD-strong, SES-weak), **AFR** (CVD-moderate, SES-very-weak), **HIS / SAS** (mostly mediator-only). The "ancestry equity gap" framing (`ANALYSIS_PLAN.md` §10) is well-justified by what's actually estimable.
 

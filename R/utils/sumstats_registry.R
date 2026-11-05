@@ -43,7 +43,7 @@ registry <- list(
              oa = "other_allele", eaf = "effect_allele_frequency", beta = "beta", se = "standard_error",
              pval = "p_value", n = "n"),
     n_default = 273157, units = "SD of CAMSIS occupational status per allele (SE*sqrt(2pqN) ~ 0.98)", sign = 1),
-  # Added 2026-10-06 (user-approved): Akimova 2024 ISEI (GCST90446163), for the Le-comparable EA4 + ISEI model only.
+  # Added 2026-10-06 (approved): Akimova 2024 ISEI (GCST90446163), for the Le-comparable EA4 + ISEI model only.
   # The GWAS Catalog meta.yaml says GRCh38, but positions are GRCh37 (rs10 at 7:92383888, as in the CAMSIS file).
   occupation_akimova2024_isei = list(role = "exposure (comparable model)", label = "Occupational status (Akimova 2024 ISEI)",
     file = raw("occupation_akimova2024_isei.tsv"),
@@ -51,7 +51,7 @@ registry <- list(
              oa = "other_allele", eaf = "effect_allele_frequency", beta = "beta", se = "standard_error",
              pval = "p_value", n = "n"),
     n_default = 271769, units = "SD of ISEI occupational status per allele", sign = 1),
-  # Added 2026-10-07 (latent-SES feasibility check; adopted as plan v0.6 §7.4 secondary, pending freeze): Xia 2025 gSES, Genomic SEM common factor of EA,
+  # Added 2026-10-07 (latent-SES feasibility check; secondary exposure, plan §7.4): Xia 2025 gSES, Genomic SEM common factor of EA,
   # household income, occupational prestige and social deprivation (GCST90566708; UKB + SSGAC; GRCh37).
   ses_gses_xia2025 = list(role = "exposure (shared SES factor; secondary)", label = "General SES factor gSES (Xia 2025)",
     file = raw("ses_gses_xia2025.tsv.gz"),
